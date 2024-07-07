@@ -1,0 +1,27 @@
+.faq{
+    /* border: 2px solid red; */
+    position: absolute;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 25px;
+}
+
+.faq h1{
+    margin-bottom: 0;
+}
+
+.card{
+    position: absolute;
+    height: 60px;
+    width: 400px;
+    margin-top: 10px;
+    border: 2px solid green;
+}
+
+.card h4, p{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+}

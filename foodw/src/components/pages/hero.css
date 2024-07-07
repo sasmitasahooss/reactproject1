@@ -1,0 +1,97 @@
+.main{
+    display: flex;
+    position: absolute;
+    padding: 20px 40px;
+    width: fit-content;
+    height: 350px;
+    background-color: rgb(238, 179, 107);
+}
+
+.lefts{
+    margin-left: 20px;
+    position: relative;
+    width: 55%;
+    height: 90%;
+}
+
+.lefts span{
+    color: #f51151;
+}
+
+.lefts .num span{
+    color: gray;
+    font-size: 1rcap;
+    margin-top: 0;
+}
+
+.lefts .btn1{
+    width: 180px;
+    height: 38px;
+    padding: 10px 10px;
+    background-color: #f51151;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid #f51151;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.btn1:hover{
+    box-shadow: 5px 5px 0px #000;
+}
+
+.lefts .btn2{
+    width: 180px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    color: #f51151;
+    margin-left: 15px;
+    border: 2px solid #f51151;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.btn2:hover{
+    box-shadow: 5px 5px 0px #000;
+}
+
+.lefts .num{
+    /* border: 5px solid black; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.lefts .numf{
+    /* border: 5px solid black; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.rights{
+    margin-left: 100px;
+    /* border: 5px solid black; */
+    /* position: absolute; */
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.rights:hover img{
+    scale: 1.2;
+}
+
+.rights img{
+    border-radius: 5px;
+    position: relative;
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    transition: all ease 1s;
+}

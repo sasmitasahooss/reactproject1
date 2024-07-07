@@ -1,0 +1,129 @@
+.mainm{
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    margin-top: 380px;
+    height: 350px;
+}
+
+.leftd{
+    position: relative;
+    padding-top: 65px;
+    margin-left: 60px;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 90%;
+}
+
+.leftd button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f51151;
+    background-color: whitesmoke;
+    border: 2px solid #f51151;
+    transition: all ease 0.5s;
+
+}
+
+button:hover{
+    box-shadow: 5px 5px 0px #000;
+
+}
+
+.rightd{
+    position: absolute;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 75%;
+    height: 110%;
+    /* border: 2px solid green; */
+        display: grid;
+        grid-template-columns: repeat(2, 4px);
+        grid-template-rows: repeat(2, 10px);
+        gap: 10px;
+    
+}
+
+.rightd img{
+    position: relative;
+    /* object-fit: fill; */
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1:hover img{
+    scale: 1.2;
+}
+.photo2:hover img{
+    scale: 1.2;
+}
+.photo3:hover img{
+    scale: 1.2;
+}
+.photo4:hover img{
+    scale: 1.2;
+}
+
+.photo1 {
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.photo1 img{
+    width: 250px;
+    height: 150px;
+    transition: all ease 1s;
+}
+
+.photo2{
+    /* border: 2px solid green; */
+    width: 350px;
+    height: 150px;
+    margin-left: 245px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.photo2 img{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 350px;
+    height: 150px;
+    transition: all ease 1s;
+}
+
+.photo3{
+    /* border: 2px solid red; */
+    margin-top: 138px;
+    margin-left: 0px;
+    width: 350px;
+    height: 215px;
+    overflow: hidden;
+}
+
+.photo3 img{
+    margin-left: 0px;
+    width: 350px;
+    height: 215px;
+    transition: all ease 1s;
+}
+
+.photo4{
+    margin-top: 138px;
+    margin-left: 342px;
+    width: 250px;
+    height: 215px;
+    overflow: hidden;
+}
+
+.photo4 img{
+    position: relative;
+    width: 250px;
+    height: 215px;
+    transition: all ease 1s;
+}
